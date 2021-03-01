@@ -7,6 +7,7 @@ echo Please Enter The FULL Name Of The File (CD to make custom directory)
 set /p name=
 del %name%
 if %name%==CD goto CD
+if %name%==cd goto CD
 cls
 set /p pause=Press ENTER to continue
 exit
